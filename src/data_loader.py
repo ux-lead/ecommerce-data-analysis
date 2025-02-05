@@ -7,3 +7,4 @@ def load_data(filepath):
 if __name__ == "__main__":
     df = load_data("../data/raw/Customer_support_data.csv")
     print(df.head())  # Exibe as primeiras linhas para verificação
+
